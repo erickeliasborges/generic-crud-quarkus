@@ -1,4 +1,5 @@
-Projeto base para criação de CRUD's genéricos em Quarkus, com as classes abstratas para o Resource, Service e Repository (utilizando PanacheRepository).
+Projeto base para criação de CRUD's genéricos em Quarkus, com as classes abstratas Resource, Service e Repository (utilizando PanacheRepository), contendo os métodos de CRUD.
+No pacote 'user' deixei um exemplo de como utilizar as classes genéricas mencionadas acima.
 
 Versões utilizadas:
 - Java: 17.
