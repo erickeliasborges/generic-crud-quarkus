@@ -3,5 +3,6 @@ No pacote 'user' deixei um exemplo de como utilizar as classes genéricas mencio
 
 Versões utilizadas:
 - Java: 17.
-- Maven: 3.
+- Maven: 3.8.5.
 - Quarkus: 2.12.3.
+- PostgreSQL: 14.1.
