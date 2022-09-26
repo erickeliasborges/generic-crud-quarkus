@@ -7,6 +7,6 @@ import javax.ws.rs.Path;
 
 @RequestScoped
 @Path("user")
-public class UserResource extends GenericResource<User, UserService> {
+public class UserResource extends GenericResource<User, Long, UserService> {
 
 }
