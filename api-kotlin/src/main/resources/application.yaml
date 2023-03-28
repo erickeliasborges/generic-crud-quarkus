@@ -1,0 +1,19 @@
+postgreSQL-app-name: generic-crud-quarkus
+
+quarkus:
+    banner:
+        path: banner.txt
+    # datasource configuration
+    datasource:
+        db-kind: postgresql
+        username: postgres
+        password: admin
+        jdbc:
+            url: jdbc:postgresql://localhost:5432/generic_crud_quarkus?ApplicationName=${postgreSQL-app-name}
+    hibernate-orm:
+        database:
+            # drop and create the database at startup (use `update` to only update the schema)
+            generation: drop-and-create #update
+    http:
+        cors: true
+        port: 8080
